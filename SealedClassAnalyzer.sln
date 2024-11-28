@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35323.107
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SealedClassAnalyzer", "SealedClassAnalyzer\SealedClassAnalyzer\SealedClassAnalyzer.csproj", "{D0BC11AD-B74F-465A-9DF3-D9B9072566F8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SealedClassAnalyzer.CodeFixes", "SealedClassAnalyzer\SealedClassAnalyzer.CodeFixes\SealedClassAnalyzer.CodeFixes.csproj", "{7A1D3E7A-C3BA-4BF7-9095-9E7A22CC14D6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SealedClassAnalyzer.Package", "SealedClassAnalyzer\SealedClassAnalyzer.Package\SealedClassAnalyzer.Package.csproj", "{B87D8778-6DF7-4517-B81A-5AD0C0960811}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SealedClassAnalyzer.Test", "SealedClassAnalyzer\SealedClassAnalyzer.Test\SealedClassAnalyzer.Test.csproj", "{AFD2DDBC-E512-403E-AEE8-7B6C6FF93A26}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SealedClassAnalyzer.Vsix", "SealedClassAnalyzer\SealedClassAnalyzer.Vsix\SealedClassAnalyzer.Vsix.csproj", "{0130DDFB-C41E-4C4F-85F2-85250755197C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D0BC11AD-B74F-465A-9DF3-D9B9072566F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0BC11AD-B74F-465A-9DF3-D9B9072566F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0BC11AD-B74F-465A-9DF3-D9B9072566F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0BC11AD-B74F-465A-9DF3-D9B9072566F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A1D3E7A-C3BA-4BF7-9095-9E7A22CC14D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A1D3E7A-C3BA-4BF7-9095-9E7A22CC14D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A1D3E7A-C3BA-4BF7-9095-9E7A22CC14D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A1D3E7A-C3BA-4BF7-9095-9E7A22CC14D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B87D8778-6DF7-4517-B81A-5AD0C0960811}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B87D8778-6DF7-4517-B81A-5AD0C0960811}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B87D8778-6DF7-4517-B81A-5AD0C0960811}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B87D8778-6DF7-4517-B81A-5AD0C0960811}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AFD2DDBC-E512-403E-AEE8-7B6C6FF93A26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AFD2DDBC-E512-403E-AEE8-7B6C6FF93A26}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AFD2DDBC-E512-403E-AEE8-7B6C6FF93A26}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AFD2DDBC-E512-403E-AEE8-7B6C6FF93A26}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0130DDFB-C41E-4C4F-85F2-85250755197C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0130DDFB-C41E-4C4F-85F2-85250755197C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0130DDFB-C41E-4C4F-85F2-85250755197C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0130DDFB-C41E-4C4F-85F2-85250755197C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F5E0B569-E39C-4528-B9B8-44C2161DF53E}
+	EndGlobalSection
+EndGlobal
