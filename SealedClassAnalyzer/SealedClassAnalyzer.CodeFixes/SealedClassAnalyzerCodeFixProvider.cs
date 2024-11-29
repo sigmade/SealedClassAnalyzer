@@ -3,7 +3,6 @@ using Microsoft.CodeAnalysis.CodeActions;
 using Microsoft.CodeAnalysis.CodeFixes;
 using Microsoft.CodeAnalysis.CSharp;
 using Microsoft.CodeAnalysis.CSharp.Syntax;
-using Microsoft.CodeAnalysis.Rename;
 using Microsoft.CodeAnalysis.Text;
 using System.Collections.Immutable;
 using System.Composition;
@@ -16,7 +15,7 @@ namespace SealedClassAnalyzer
     [ExportCodeFixProvider(LanguageNames.CSharp, Name = nameof(SealedClassAnalyzerCodeFixProvider)), Shared]
     public class SealedClassAnalyzerCodeFixProvider : CodeFixProvider
     {
-        private const string title = "Добавить модификатор 'sealed'";
+        private const string title = "Add modifier 'sealed'";
 
         public sealed override ImmutableArray<string> FixableDiagnosticIds
         {

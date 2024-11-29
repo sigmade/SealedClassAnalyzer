@@ -8,9 +8,9 @@ namespace SealedClassAnalyzer
     public class SealedClassAnalyzer : DiagnosticAnalyzer
     {
         public const string DiagnosticId = "SCA001";
-        private static readonly LocalizableString Title = "Класс не является sealed";
-        private static readonly LocalizableString MessageFormat = "Класс '{0}' не является sealed";
-        private static readonly LocalizableString Description = "Рассмотрите возможность сделать класс sealed для безопасности и производительности";
+        private static readonly LocalizableString Title = "The class is not sealed";
+        private static readonly LocalizableString MessageFormat = "The class '{0}' is not sealed";
+        private static readonly LocalizableString Description = "Consider making the class sealed for performance";
         private const string Category = "Design";
 
         private static DiagnosticDescriptor Rule = new DiagnosticDescriptor(
