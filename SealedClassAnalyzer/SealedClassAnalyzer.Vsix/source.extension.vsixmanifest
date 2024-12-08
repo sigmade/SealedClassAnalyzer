@@ -3,7 +3,7 @@
   <Metadata>
     <Identity Id="SealedClassAnalyzer.3c38e9fe-8eba-4b23-8b56-3a4bc0ac18e4" Version="1.0.1" Language="en-US" Publisher="Yegor Sychev"/>
     <DisplayName>SealedClassAnalyzer</DisplayName>
-    <Description xml:space="preserve">This is a sample diagnostic extension for the .NET Compiler Platform ("Roslyn").</Description>
+    <Description xml:space="preserve">This is a diagnostic extension for the .NET Compiler Platform ("Roslyn").</Description>
   </Metadata>
   <Installation>
 	<InstallationTarget Version="[17.0,18.0)" Id="Microsoft.VisualStudio.Community">
